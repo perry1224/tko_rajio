@@ -2,7 +2,6 @@ body {
   background-color: white;
 }
 
-a.spreaker-player {
-justify-content: center;
-margin: 140px;
+.listen-icon {
+  text-align: right;
 }
