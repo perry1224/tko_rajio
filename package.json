@@ -1,0 +1,29 @@
+{
+  "name": "tko_rajio",
+  "version": "1.0.0",
+  "description": "A website dedicated to my podcast",
+  "main": "scripts.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perry1224/tko_rajio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perry1224/tko_rajio/issues"
+  },
+  "homepage": "https://github.com/perry1224/tko_rajio#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
