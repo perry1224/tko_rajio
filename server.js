@@ -1,12 +1,15 @@
 const express = require ('express')
+const articleRouter = require('./routes/articles')
 const app = express()
 
 //set the app view engine
 app.set('view engine', 'ejs')
 
+app.use('/articles', articleRouter)
+
 // GET requests
 app.get('/', (req, res) => {
-  res.send('Welcome to my book club!');
+  res.render('index', { text: hello});
 });
 // listen for requests
 app.listen(8080, () => {
