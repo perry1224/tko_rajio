@@ -3,12 +3,21 @@
 }
 
 body {
+ 
   background-color: white;
   align-content: center;
 }
 
 .listen-icon {
-  justify-content: right;
+  flex-grow: 1;
+  align-content:center;
+
+}
+
+textarea {
+  width: 60%;
+  height: auto;
+
 }
 
 .contact {
@@ -18,7 +27,7 @@ body {
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 10px;
-	line-height: 2em;
+	
   color:purple
 }
 
@@ -38,6 +47,7 @@ button:focus,
 }
 
 .paragraph {
+  display: flex;
   line-height: 2.5;
   text-align: justify;
   align-content: center;
@@ -49,3 +59,15 @@ h1 {
   font-weight: lighter;
   text-align: center;
 }
+
+.page-footer {
+  background-color: rgb(50, 50, 50);
+  flex-direction: column;
+  text-align: right;  
+
+}
+
+ a .listen-icon {
+  margin: 0 auto;
+}
+
