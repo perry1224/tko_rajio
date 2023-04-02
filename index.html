@@ -45,7 +45,60 @@
       </div>
     </div>
   </nav>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
 
+    form {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+      padding: 20px;
+      width: 400px;
+      margin: 50px auto;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+      background-color: #f2f2f2;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
   <h1>Who are we and what is this about?</h1>
 
   <p class="paragraph">TKO Radio is a weekly Japanese culture podcast hosted by Pdubz from Canada and Beautiful from the USA (Yes these are not our real names) where we talk about all things Japan related from anime, current events, personal life updates, travel tips, and just shits and giggles.</p>
@@ -66,18 +119,27 @@
   <form
   action="https://formspree.io/f/xwkzqnyd"
   method="POST">
-  <label for="name">Name: </label><br>
-  <input id="name" name="name" placeholder="Enter name" required><br>
-
-  <label for="name">E-mail: </label><br>
-  <input id="email" name = email type="email" placeholder="Enter e-mail" required><br>
-
-  <label for="name">Message: </label><br>
-  <textarea id="message" name = message maxlength="240" required placeholder= "Message"></textarea><br>
 
 
-  <input type="submit" value="Send message" class="button"><br>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+  
+      <input type="submit" value="Submit">
+
+
 </form></main>
+
+
 
 
   <footer class="page-footer">
