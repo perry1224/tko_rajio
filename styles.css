@@ -230,6 +230,8 @@ h1 {
   animation-duration: 1.5s;
 }
 
+
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -239,3 +241,4 @@ h1 {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
