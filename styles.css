@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   background-color: #f2f2f2;
   align-content: center;
   margin: 0;
@@ -27,11 +27,10 @@ textarea {
 .contact {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 10px;
-	
+	font-family: 'Titillium Web', sans-serif;
   color:purple
 }
 
@@ -57,11 +56,19 @@ button:focus,
   align-content: center;
   margin-right: 150px;
   margin-left: 150px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
   font-weight: lighter;
   text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .page-footer {
@@ -81,6 +88,11 @@ h1 {
 
 font-weight: bold;
 color: purple;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 765px) {
@@ -143,6 +155,7 @@ label {
 h1 {
   text-align: center;
   margin-top: 50px;
+  
 }
 
 /* Slideshow container */
