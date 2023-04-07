@@ -260,6 +260,5 @@ h1 {
 }
 
 .g-recaptcha {
-  background-color: purple;
-  color: white;
+ text-align: center;
 }
