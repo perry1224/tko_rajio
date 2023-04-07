@@ -259,3 +259,7 @@ h1 {
   .prev, .next,.text {font-size: 11px}
 }
 
+.g-recaptcha {
+  background-color: purple;
+  color: white;
+}
