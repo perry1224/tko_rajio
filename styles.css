@@ -261,6 +261,11 @@ h1 {
 
 @media only screen and (max-width: 480px) {
 
+.g-recaptcha {
+  justify-content: center;
+  margin-left: auto;
+}
+
   .listen-icon {
     flex-grow: 1;
     display: flex;
@@ -329,3 +334,5 @@ h1 {
   }
 
 }
+
+
