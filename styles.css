@@ -107,9 +107,10 @@ margin:1em;
 }
 
 .nav-link {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.698);
   width: 20%;
-  border-radius: 1px;
+  margin-left:auto;
+  display: flex;
   justify-content: center;
 }
 
