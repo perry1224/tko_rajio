@@ -106,6 +106,13 @@ margin:1em;
 }
 }
 
+.nav-link {
+  background-color: white;
+  width: 20%;
+  border-radius: 1px;
+  justify-content: center;
+}
+
 .navbar-brand {
 padding-left: 0.5em;
 }
