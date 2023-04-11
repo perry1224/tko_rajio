@@ -106,14 +106,6 @@ margin:1em;
 }
 }
 
-.nav-link {
-  background-color: rgba(255, 255, 255, 0.698);
-  width: 20%;
-  margin-left:auto;
-  display: flex;
-  justify-content: center;
-}
-
 .navbar-brand {
 padding-left: 0.5em;
 }
@@ -341,6 +333,13 @@ h1 {
     margin: 0 2px;
   }
 
+.nav-link {
+  background-color: rgba(255, 255, 255, 0.698);
+  margin-left:auto;
+  display: flex;
+  width: 20%;
+  justify-content: center;
 }
 
-
+  
+}
