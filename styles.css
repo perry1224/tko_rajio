@@ -76,7 +76,7 @@ h2 {
 }
 
 .page-footer {
-  background-color: rgb(107, 104, 104);
+  background-color: rgba(209, 205, 205, 0.652);
   flex-direction: column;
   text-align: right;  
 
