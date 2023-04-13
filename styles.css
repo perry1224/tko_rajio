@@ -83,7 +83,6 @@ h2 {
 }
 
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
 
 font-weight: bold;
@@ -91,10 +90,13 @@ color: purple;
 background-color: white;
 opacity: 0.9;
 font-family: 'Titillium Web', sans-serif;
+transition: transform .2s
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   opacity: 0.6;
+  transform: scale(1.1)
+  
 }
 
 @media only screen and (max-width: 765px) {
@@ -113,9 +115,6 @@ padding-left: 0.5em;
 
 }
 
-a .navbar-brand {
-  color: red;
-}
 
 form {
   background-color: #fff;
