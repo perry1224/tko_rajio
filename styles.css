@@ -99,6 +99,7 @@ transition: transform .2s
   
 }
 
+
 @media only screen and (max-width: 765px) {
 .paragraph {
 display: block;
