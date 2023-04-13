@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #f2f2f2;
   align-content: center;
   margin: 0;
 }
@@ -84,10 +83,13 @@ h2 {
 }
 
 
+
 .navbar-expand-lg .navbar-nav .nav-link {
 
 font-weight: bold;
 color: purple;
+background-color: white;
+opacity: 0.9;
 font-family: 'Titillium Web', sans-serif;
 }
 
@@ -108,7 +110,13 @@ margin:1em;
 
 .navbar-brand {
 padding-left: 0.5em;
+
 }
+
+a .navbar-brand {
+  color: red;
+}
+
 form {
   background-color: #fff;
   border-radius: 10px;
@@ -289,7 +297,9 @@ h1 {
     margin-left: 0;
   }
 
+
   .navbar-brand {
+ 
     padding-left: 0;
   }
 
