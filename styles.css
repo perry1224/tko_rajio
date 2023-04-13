@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+a.navbar-brand {
+  font-size: 50px;
+}
+
 .listen-icon {
   flex-grow: 1;
   align-content:center;
@@ -266,7 +270,7 @@ h1 {
  margin-left: 30px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
 
   .container {
     max-width: 960px;
@@ -278,14 +282,17 @@ h1 {
   .navbar-brand {
     margin-left: 1rem;
   }
-  .navbar-brand {
-    font-size: 10%;
+  a.navbar-brand {
+    font-size: 20px;
   }
   .logo {
     margin-right: 1rem;
+    width: 60px;
+    height: 60px;
   }
   .nav-link {
-    margin-right: 1rem;
+    margin: 0 auto;
+    width: 30%;
   }
   .paragraph {
     max-width: 100%;
